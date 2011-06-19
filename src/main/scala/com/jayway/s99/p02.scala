@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 /**
 * @author Amir Moulavi
 * Problem 2: Find the last but one element of a list.

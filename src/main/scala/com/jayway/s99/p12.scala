@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 /**
 * @author Amir Moulavi
 * Problem 12: Decode a run-length encoded list.

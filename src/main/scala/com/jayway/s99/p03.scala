@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 /**
 * @author Amir Moulavi
 * Problem 3: Find the Kth element of a list.

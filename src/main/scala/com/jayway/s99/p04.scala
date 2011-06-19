@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 /**
 * @author Amir Moulavi
 * Problem 4: Find the number of elements of a list.

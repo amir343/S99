@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 /**
 * @author Amir Moulavi
 * Problem 8: Eliminate consecutive duplicates of list elements.

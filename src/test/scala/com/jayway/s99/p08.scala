@@ -1,3 +1,5 @@
+package com.jayway.s99
+
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.FlatSpec
 
