@@ -2,7 +2,7 @@ package com.jayway.s99
 
 /**
  * @author Amir Moulavi
- * Problem 27:
+ * Problem 27:Group the elements of a set into disjoint subsets.
  */
 
 object p27 {
