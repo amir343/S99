@@ -15,7 +15,6 @@ object p32 {
 	}
 	
 	def divisor(n:Int) = {
-	  val m = (n/2).asInstanceOf[Int]
-	  for (i <- 1 until m if n % i == 0 ) yield(i)
+	  for (i <- 1 to n if n % i == 0 ) yield(i)
 	}
 }

@@ -8,6 +8,7 @@ class p32Spec extends FlatSpec with ShouldMatchers {
     import com.jayway.s99.p32._
     gcd(36,63) should equal (9)
     gcd(5,17) should equal (1)
+    gcd(7,14) should equal (7)
     
   }
 }
