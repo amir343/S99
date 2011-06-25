@@ -9,18 +9,13 @@ import java.lang.Math
 
 object p31 {
   
+	implicit def convertFromInt(n:Int):toInt = new toInt(n)
+	
 	class toInt(n:Int) {
 		def isPrime():Boolean = {
-				for (i <- 1 until Math.sqrt(n).asInstanceOf[Int] )
-					if ( n % i == 0) false
-					true  
+		  val m = Math.sqrt(n).asInstanceOf[Int]
+		  val result = for (i <- 2 to m if n % i == 0) yield i
+		  (result.length == 0)
 		}
 	}
-	
-	implicit def toInt(n:Int):toInt = new toInt(n)
-
-	def main(args:Array[String]) = {
-	  7 isPrime
-	}
-  
 }
